@@ -119,6 +119,8 @@ ul.linki li {
 }
 #regForm {
   padding: 0px 40px 40px 40px;
+  display: flex;
+  flex-direction: column-reverse;
 }
 h2 {
   text-align: center;
@@ -143,6 +145,7 @@ input.invalid {
 .tab {
   display: none;
   padding-bottom: 50px;
+  background-color: #7b7b7b;
 }
 .tab p {
   padding-left: 120px;
