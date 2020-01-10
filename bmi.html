@@ -63,18 +63,32 @@
             </div>
 
             <div class="ww-controls">
-              <p>Waga:</p>
-              <input type="number" class="inputweight" name="weight" value="" />
+              <p>Waga:(Kg)</p>
+              <input
+                type="number"
+                class="bmiInput"
+                id="inputWeight"
+                value=""
+                step="0.01"
+              />
               <br />
-              <p>Wzrost:</p>
-              <input type="text" class="inputheight" name="height" value="" />
+              <p>Wzrost:(m)</p>
+              <input
+                type="number"
+                class="bmiInput"
+                id="inputHeight"
+                value=""
+                step="0.01"
+              />
             </div>
 
             <div class="btn3">
-              <button>OBLICZ</button>
+              <button id="calculateBtn">OBLICZ</button>
             </div>
           </div>
-
+          <div>
+            <p id="bmiResult"></p>
+          </div>
           <div class="barriersBMI">
             <div class="group__right">
               <p class="calculator-info__title">
@@ -108,5 +122,6 @@
       <hr class="linia-dol" />
       <p class="copyright">Copyright &copy; by Marta Lewandowska</p>
     </div>
+    <script src="bmi.js"></script>
   </body>
 </html>
